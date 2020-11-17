@@ -1,0 +1,17 @@
+package entities;
+
+import java.util.Date;
+
+public class UsedProduct extends Product {
+
+	private Date manufactureDate() {
+		return null;
+
+	}
+
+	public UsedProduct(String name, Double price, String priceTag) {
+		super(name, price, priceTag);
+	}
+	
+}
+

@@ -1,0 +1,44 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Product;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner (System.in);
+		
+		List<Product> list = new ArrayList<>();
+		
+		System.out.print("Enter the number of products: ");
+		int n = sc.nextInt();
+		for(int i=1; i<= n; i++) {
+			System.out.println("product # " + i + " data: " );
+			System.out.print("Comon, used or imported (c/u/i)?");
+			char ch = sc.next().charAt(0);
+			String name = sc.nextLine();
+			System.out.print(name);
+			int price = sc.nextInt();
+			System.out.println(price);
+			
+			
+		}
+		
+		
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
+		sc.close();
+
+	}
+
+}

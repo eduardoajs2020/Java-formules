@@ -1,0 +1,23 @@
+package entities;
+
+public class ImportedProduct extends Product {
+	private Double CustomsFree;
+	
+	public ImportedProduct() {
+		
+	}
+
+	public ImportedProduct(String name, Double price, String priceTag, Double customsFree) {
+		super(name, price, priceTag);
+		CustomsFree = customsFree;
+	}
+
+	public Double getCustomsFree() {
+		return CustomsFree;
+	}
+
+	public void setCustomsFree(Double customsFree) {
+		CustomsFree = customsFree;
+	}
+	
+}
