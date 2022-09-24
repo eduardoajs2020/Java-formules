@@ -1,0 +1,17 @@
+JSON = JAVASCRIPT_OBJECT_NOTATION;
+
+Um formato de representação de dados;
+Mais simples que o XML, que é utilizado para fins parecidos.
+Utiliza o formato chave e valor(O separador é : e chave e valor tem que ser anotados com "");
+É leve para ser enviado por requisições;
+Muito utilizado para API e também para arquivos de configuração;
+
+
+TIPOS DE DADOS:
+O JSON aceita diversos tipos de Dados:
+
+Strings - "Olá mundo";
+Números - 1 ou 12.54;
+Arrays- [1,2,3];
+Objetos- {"nome":"Matheus"};
+Dados nulos - Null;
